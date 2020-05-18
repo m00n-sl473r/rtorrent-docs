@@ -139,8 +139,8 @@ See the hint at the start of this chapter regarding the (sometimes implicit) *ta
 
         These commands return the item's state (1 = started or paused, 0 = stopped),
         when that changed the last time, and how often it did change.
-        Note that although pausing / resuming a started item does not change ``state``,
-        the timestamp and counter are.
+        Note that although pausing / resuming a started item does not change ``state``, 
+        it does update the timestamp and counter.
 
         In summary:
 
